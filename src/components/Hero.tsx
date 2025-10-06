@@ -22,10 +22,10 @@ export const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 group">
+          <a href="#dashboard" className="bg-primary hover:bg-primary/90 group text-white  rounded-2xl text-xl flex p-4 justify-center items-center">
             View Dashboard
             <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-          </Button>
+          </a>
           <Button size="lg" variant="outline" className="border-primary/30 hover:bg-primary/5">
             <TrendingDown className="w-4 h-4 mr-2" />
             See Impact Report
